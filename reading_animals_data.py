@@ -7,11 +7,14 @@ def load_data(file_path):
 
 animals_data = load_data('animals_data.json')
 
-print(animals_data)
+with open("animals_template.html", "r") as template:
+    animals_template = template.read()
+    print(animals_template)
+
+
 
 # Flatten the data if it's nested lists
 def flatten(data):
-    """Flattens nested lists of animals"""
     result = []
     if isinstance(data, list):
         for item in data:
@@ -25,6 +28,8 @@ def flatten(data):
 
 animals_list = flatten(animals_data)
 
+
+output = ""
 # Iterate through animals safely
 for animal in animals_data:
     name = animal.get("name")
@@ -32,6 +37,8 @@ for animal in animals_data:
     characteristics = animal.get("characteristics", {})
     diet = characteristics.get("diet")
     animal_type = characteristics.get("type")
+    output += name
+
 
     if name:
         print(f"Name: {name}")
@@ -43,3 +50,5 @@ for animal in animals_data:
         print(f"Type: {animal_type}")
 
     print()  # blank line between animals
+
+print(output)

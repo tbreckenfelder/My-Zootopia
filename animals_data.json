@@ -25,7 +25,7 @@
       "group": "Dog",
       "color": "BlackWhiteTan",
       "skin_type": "Hair",
-      "lifespan": "10 to 12 years"
+      "lifespan": "10 - 12 years"
     }
   },
   {
@@ -96,7 +96,7 @@
       "color": "RedBlackSilver",
       "skin_type": "Fur",
       "top_speed": "31 mph",
-      "lifespan": "10 to 15 years in captivity, seven years in the wild",
+      "lifespan": "10 - 15 years in captivity, seven years in the wild",
       "height": "14 to 20 inches",
       "length": "18 to 35 inches with 12 to 22 inch long tails, males a bit larger",
       "age_of_sexual_maturity": "10 months",
@@ -161,7 +161,7 @@
       "diet": "Omnivore",
       "color": "BlackWhiteTanMulti-colored",
       "skin_type": "Hair",
-      "lifespan": "10 to 13 years",
+      "lifespan": "10 - 13 years",
       "weight": "75 pounds"
     }
   },

@@ -1,0 +1,20 @@
+# Virtuelle Umgebung
+.venv/
+venv/
+
+# Umgebungsvariablen
+.env
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Cache und Logs
+__pycache__/
+*.py[cod]
+*.log
+
+animals.html_##
+__pycache__/
